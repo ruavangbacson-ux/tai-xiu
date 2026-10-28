@@ -1,0 +1,13 @@
+{
+  "name": "tai-xiu-diem-ao",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo Tài Xỉu multiplayer bằng điểm ảo, server-authoritative",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
